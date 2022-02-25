@@ -78,7 +78,7 @@ function App() {
                 value={totalFiat}
               />
             </div>
-            <select name="fiat" id="" onChange={handleFiatRate} value={fiat}>
+            <select name="fiat" onChange={handleFiatRate} value={fiat}>
               <option value="NGN">NGN</option>
               <option value="EUR">EUR</option>
               <option value="GBP">GBP</option>
